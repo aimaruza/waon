@@ -1,0 +1,42 @@
+Third-party software bundled with waon
+=======================================
+
+waon itself is licensed under the GNU General Public License v3.0
+(GPL-3.0.txt). It ships the components below, unmodified, as separate
+libraries. Each one's license text is in this folder.
+
+
+FFmpeg 6.0 (avcodec, avdevice, avfilter, avformat, avutil, postproc,
+swresample, swscale DLLs)
+  License: GPL-3.0 (this build was configured with --enable-gpl
+  --enable-version3), see GPL-3.0.txt
+  Build: the 64-bit shared "full" build from www.gyan.dev, as shipped in
+  the ffpyplayer 4.5.3 Windows wheel. Its full build configuration and
+  the list of external libraries compiled in are in FFmpeg-README.txt.
+  Source code: https://github.com/FFmpeg/FFmpeg/commit/ea3d24bbe3
+
+ffpyplayer 4.5.3
+  License: LGPL-3.0, see LGPL-3.0.txt (and GPL-3.0.txt, which it extends)
+  Source code: https://github.com/matham/ffpyplayer/tree/v4.5.3
+
+SDL 2.26.4 and SDL_mixer 2.6.3
+  License: zlib, see SDL2-COPYING.txt
+  Source code: https://github.com/libsdl-org/SDL/tree/release-2.26.4
+               https://github.com/libsdl-org/SDL_mixer/tree/release-2.6.3
+
+Qt for Python (PySide6, Shiboken6) 6.10.2 and the Qt 6 libraries
+  License: LGPL-3.0, see LGPL-3.0.txt
+  Source code: https://download.qt.io/official_releases/QtForPython/
+               https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.10.2
+
+mutagen 1.47.0
+  License: GPL-2.0-or-later, see GPL-2.0.txt
+  Source code: https://github.com/quodlibet/mutagen/tree/release-1.47.0
+
+Phosphor Icons
+  License: MIT, see Phosphor-Icons-LICENSE.txt
+  Source code: https://github.com/phosphor-icons/core
+
+Python 3.9.13
+  License: PSF License Agreement, see Python-LICENSE.txt
+  Source code: https://www.python.org/downloads/source/
